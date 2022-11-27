@@ -4,7 +4,7 @@ The repository contains materials of implementations of the algorithms covered i
 
 **Machine Learning**
 * Supervised Learning
-    Using observable pairs of Measurements$x$ and Labels$y$ as (x,y) to build a predictive model on other unknown pairs.
+    Using observable pairs of Measurements x and Labels y as (x,y) to build a predictive model on other unknown pairs.
     - Frame work: 
         - Training Examples 
         - Model Choosing and Learning Algorithm 
