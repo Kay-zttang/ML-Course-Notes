@@ -2,7 +2,7 @@
 
 The repository contains materials of implementations of the algorithms covered in course INDE577 along with relating data sets and descrptive README.md files.
 
-**Supervised Learning**
+### **Supervised Learning**
 
 Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a predictive model on other unknown pairs.
 - Frame work: 
@@ -16,4 +16,4 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
 - Underfitting and Overfitting Issues
     - Partition data sets as training / testing data sets
 
-**Unsupervised Learning**
+### **Unsupervised Learning**
