@@ -6,9 +6,10 @@
 Functions approximation models used in **regression** and **classification** tasks.
 
 #### **The Single Neuron Model**
-[<img align="center" src="A_single_neuron_model.jpg" width="700"  />](A_single_neuron_model.jpg)
+[<img align="center" src="A_single_neuron_model.jpg" width="700" />](A_single_neuron_model.jpg)
 
 #### **The Perceptron Single Neuron Model**
+[<img align="center" src="The_Perceptron_neuron_model.jpg" width="700" />](The_Perceptron_neuron_model.jpg)
 
 ### **Implement**
 
