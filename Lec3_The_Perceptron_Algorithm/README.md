@@ -1,3 +1,5 @@
+## The Perceptron Algorithm
+
 ### Neurons and Neural networks
 Functions approximation models used in **regression** and **classification** tasks.
 
