@@ -2,4 +2,4 @@
 Functions approximation models used in **regression** and **classification** tasks.
 
 ### The single Neuron Model
-![image](A_single_neuron_model.jpg =250x)
+<img src="A_single_neuron_model.jpg" width="200", height="150">
