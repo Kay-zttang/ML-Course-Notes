@@ -11,6 +11,14 @@ Functions approximation models used in **regression** and **classification** tas
 #### **The Perceptron Single Neuron Model**
 [<img align="center" src="The_Perceptron_neuron_model.jpg" width="700" />](The_Perceptron_neuron_model.jpg)
 
+#### **Neuron Cost Function** and **Model Update Rule**
+
+1. Given labeled data D
+2. For each $i$, feed forward $x^(i)$ into neuron model to output predict $(has{y})^(i)$
+    2.1 weight perceptron update rule
+    2.2 bias perceptron update rule
+3. Repeat until either
+
 ### **Implement**
 
 #### **Dataset Description**
