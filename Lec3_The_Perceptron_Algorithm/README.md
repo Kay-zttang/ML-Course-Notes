@@ -14,7 +14,7 @@ Functions approximation models used in **regression** and **classification** tas
 #### **Neuron Cost Function** and **Model Update Rule**
 
 1. Given labeled data D
-2. For each $i$, feed forward $x^{(i)}$ into neuron model to output predict $(hat{y})^{(i)}$
+2. For each $i$, feed forward $x^{(i)}$ into neuron model to output predict $(\hat{y})^{(i)}$
     2.1 weight perceptron update rule
     2.2 bias perceptron update rule
 3. Repeat until either
