@@ -6,10 +6,10 @@
 Functions approximation models used in **regression** and **classification** tasks.
 
 #### **The Single Neuron Model**
-[<img align="center" src="A_single_neuron_model.jpg" width="700" />](A_single_neuron_model.jpg)
+[<img align="center" src="A_single_neuron_model.jpg" width="500" />](A_single_neuron_model.jpg)
 
 #### **The Perceptron Single Neuron Model**
-[<img align="center" src="The_Perceptron_neuron_model.jpg" width="700" />](The_Perceptron_neuron_model.jpg)
+[<img align="center" src="The_Perceptron_neuron_model.jpg" width="500" />](The_Perceptron_neuron_model.jpg)
 
 #### **Neuron Cost Function** and **Model Update Rule**
 
@@ -18,13 +18,13 @@ Functions approximation models used in **regression** and **classification** tas
     - **weight perceptron update rule**
     - **bias perceptron update rule**
 
-[<img align="center" src="Update_Case.jpg" width="400" />](Update_Case.jpg)
+[<img align="center" src="Update_Case.jpg" width="500" />](Update_Case.jpg)
 
 3. Repeat until either:
     - A maximum number of **epochs** has reached
     - The cost function is outputting a sufficiently **small error**
 
-[<img align="center" src="Cost_Func.jpg" width="250" />](Cost_Func.jpg)
+[<img align="center" src="Cost_Func.jpg" width="350" />](Cost_Func.jpg)
 
 ### **Implement**
 
