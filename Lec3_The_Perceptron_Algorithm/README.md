@@ -7,12 +7,12 @@ Functions approximation models used in **regression** and **classification** tas
 
 #### **The Single Neuron Model**
 <p align="center" width="100%">
-    <img align="center" src="A_single_neuron_model.jpg" width="600" />
+    <img align="center" src="Img/A_single_neuron_model.jpg" width="600" />
 </p>
 
 #### **The Perceptron Single Neuron Model**
 <p align="center" width="100%">
-    <img align="center" src="The_Perceptron_neuron_model.jpg" width="600" />
+    <img align="center" src="Img\The_Perceptron_neuron_model.jpg" width="600" />
 </p>
 
 #### **Neuron Cost Function** and **Model Update Rule**
