@@ -36,7 +36,7 @@ Functions approximation models used in **regression** and **classification** tas
 
 ---
 
-### **Implement**
+### **Implementation**
 
 #### **Dataset Description**
 In the impletation there're two datasets being used: **Iris dataset** and **Palmer Penguins Dataset**.
