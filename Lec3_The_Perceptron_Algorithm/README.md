@@ -6,29 +6,33 @@
 Functions approximation models used in **regression** and **classification** tasks.
 
 #### **The Single Neuron Model**
-[<img align="center" src="A_single_neuron_model.jpg" width="500" />](A_single_neuron_model.jpg)
+<p align="center" width="100%">
+    <img align="center" src="A_single_neuron_model.jpg" width="600" />
+</p>
 
 #### **The Perceptron Single Neuron Model**
 <p align="center" width="100%">
-    <img align="center" src="The_Perceptron_neuron_model.jpg" width="500" />
+    <img align="center" src="The_Perceptron_neuron_model.jpg" width="600" />
 </p>
-
-[<img align="center" src="The_Perceptron_neuron_model.jpg" width="500" />](The_Perceptron_neuron_model.jpg)
 
 #### **Neuron Cost Function** and **Model Update Rule**
 
 1. Given labeled data D
 2. For each $i$, feed forward $x^{(i)}$ into neuron model to output predict $\hat{y}^{(i)}$
-    - **weight perceptron update rule**
-    - **bias perceptron update rule**
+    2.1 **weight perceptron update rule**
+    2.2 **bias perceptron update rule**
 
-[<img align="center" src="Update_Case.jpg" width="500" />](Update_Case.jpg)
+<p align="center" width="100%">
+    <img align="center" src="Update_Case.jpg" width="500" />
+</p>
 
 3. Repeat until either:
     - A maximum number of **epochs** has reached
     - The cost function is outputting a sufficiently **small error**
 
-[<img align="center" src="Cost_Func.jpg" width="350" />](Cost_Func.jpg)
+<p align="center" width="100%">
+    <img align="center" src="Cost_Func.jpg" width="350" />
+</p>
 
 ### **Implement**
 
