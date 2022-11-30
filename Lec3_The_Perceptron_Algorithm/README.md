@@ -19,8 +19,8 @@ Functions approximation models used in **regression** and **classification** tas
 
 1. Given labeled data D
 2. For each $i$, feed forward $x^{(i)}$ into neuron model to output predict $\hat{y}^{(i)}$
-    2.1 **weight perceptron update rule**
-    2.2 **bias perceptron update rule**
+    * **weight perceptron update rule**
+    * **bias perceptron update rule**
 
 <p align="center" width="100%">
     <img align="center" src="Update_Case.jpg" width="500" />
