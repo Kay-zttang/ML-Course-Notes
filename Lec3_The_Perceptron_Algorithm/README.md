@@ -40,12 +40,14 @@ Functions approximation models used in **regression** and **classification** tas
 
 #### **Dataset Description**
 In the impletation there're two datasets being used: **Iris dataset** and **Palmer Penguins Dataset**.
-- **Iris dataset** \\
+- **Iris dataset** 
+
 5 columns: 1 factor groups + 4 numeric parameters
     - Three species group: 'setosa' / 'verginica' / 'versicolor'
     - Numeric parameters: 'sepal_length' / 'sepal_width' / 'petal_length' / 'petal_width'
     
-- **Palmer Penguins Dataset** \\
+- **Palmer Penguins Dataset** 
+
 7 columns: 3 factor groups + 4 numeric parameters
     - Three species group: 'Adelie' / 'Chinstrap' / 'Gentoo'
     - Three island group: 'Biscoe' / 'Dream' / 'Torgersen'
