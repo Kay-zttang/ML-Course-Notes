@@ -34,6 +34,8 @@ Functions approximation models used in **regression** and **classification** tas
     <img align="center" src="Cost_Func.jpg" width="350" />
 </p>
 
+---
+
 ### **Implement**
 
 #### **Dataset Description**
