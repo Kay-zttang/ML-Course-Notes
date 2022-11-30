@@ -12,7 +12,7 @@ Functions approximation models used in **regression** and **classification** tas
 
 #### **The Perceptron Single Neuron Model**
 <p align="center" width="100%">
-    <img align="center" src="Img\The_Perceptron_neuron_model.jpg" width="600" />
+    <img align="center" src="Img/The_Perceptron_neuron_model.jpg" width="600" />
 </p>
 
 #### **Neuron Cost Function** and **Model Update Rule**
@@ -23,7 +23,7 @@ Functions approximation models used in **regression** and **classification** tas
     * **bias perceptron update rule**
 
 <p align="center" width="100%">
-    <img align="center" src="Update_Case.jpg" width="500" />
+    <img align="center" src="Img/Update_Case.jpg" width="500" />
 </p>
 
 3. Repeat until either:
@@ -31,7 +31,7 @@ Functions approximation models used in **regression** and **classification** tas
     - The cost function is outputting a sufficiently **small error**
 
 <p align="center" width="100%">
-    <img align="center" src="Cost_Func.jpg" width="350" />
+    <img align="center" src="Img/Cost_Func.jpg" width="350" />
 </p>
 
 ---
