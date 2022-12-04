@@ -7,7 +7,8 @@
 The Concept of Gradient Descent is that "Gradient" (derivative for single variable function) provides a direction to "Descent" (optimize the function). 
 ```math
 \min_{w\in \mathbb{R}} f(w) \;\;\;\;(Single\:Variable)
-\\*
+\newline
+
 \min_{w\in \mathbb{R^n}} f(w) \;\;\;\;(Multiple\:Variables)
 ```
 So there're two important features to consider:
