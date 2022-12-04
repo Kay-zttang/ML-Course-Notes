@@ -1,6 +1,6 @@
 ## The Dense Neuron Model
 
-**- The Neuron Networks**
+####**- The Neuron Networks**
 * **Structure**:
 
     1 Input Layer + 1 sequence of Hidden Layer (multiple single nuerons) + 1 Output Layer
