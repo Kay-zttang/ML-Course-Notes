@@ -27,6 +27,10 @@ Implement stochastic gradient descent as well in each phase.
     <img align="center" src="Img/gradient_with_backpropogation_1.jpg" width="600" />
 </p>
 
+<p align="center" width="100%">
+    <img align="center" src="Img/gradient_with_backpropogation_2.jpg" width="600" />
+</p>
+
 For each $i = 1, ..., N$:
 1. Feedfoward $\mathbf{x}^{(i)}$ into the network 
 2. Compute $\delta^{L} = \nabla_aC\otimes \sigma'(\mathbf{z}^{L})$
