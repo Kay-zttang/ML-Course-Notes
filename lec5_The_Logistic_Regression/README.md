@@ -23,7 +23,11 @@ The cost function here we choose the **binary cross entropy loss function**.
 <p align="center" width="100%">
     <img align="center" src="Img/gradient_binary_cross.jpg" width="600" />
 </p>
+Recall **Stochastic Gradient Descent Algorithm**
 
+For each epoch, for each $i = 1, ..., N$:
+1.  Caluculate the full gradient
+2.  Then update $w$ and $b$ via the update rule
 
 ---
 
