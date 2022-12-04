@@ -88,6 +88,3 @@ Since the gradient descent here focus on linear regression, we are implement the
 - flipper_length_mm
 - body_mass_g
 Target: Using The Gradient Descent to perform regression on relationships between numeric parameters of a specific species.
-
-
-#### **- Performance Conclusion**
