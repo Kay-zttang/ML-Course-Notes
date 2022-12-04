@@ -39,7 +39,7 @@ The cost function here we choose the **mean-squared error cost function**.
 </p>
 
 #### **Different Methods for Calculating the Full Partial Derivatives**
-- **Batch Gradient Descent Algiorithm**
+- <ins>**Batch Gradient Descent Algiorithm**</ins>
 
 For each epoch:
 1.  Caluculate the full gradient by
