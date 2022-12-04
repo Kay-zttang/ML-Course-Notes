@@ -23,6 +23,9 @@
 
 #### **- Neuron Cost Function and Model Update Rule**
 Implement stochastic gradient descent as well in each phase.
+<p align="center" width="100%">
+    <img align="center" src="Img/gradient_with_backpropogation_1.jpg" width="600" />
+</p>
 
 For each $i = 1, ..., N$:
 1. Feedfoward $\mathbf{x}^{(i)}$ into the network 
