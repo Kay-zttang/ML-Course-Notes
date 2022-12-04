@@ -11,7 +11,8 @@ The Concept of Gradient Descent is that "Gradient" (derivative for single variab
 2. **Learning Rate $\alpha$**
 
 ```math
-Update\:Rule\:for\:f\;of\:one\:Variable:\; w_{n+1} = w_n - \alpha f'(w_n) \\
+Update\:Rule\:for\:f\;of\:one\:Variable:\; w_{n+1} = w_n - \alpha f'(w_n) 
+
 New\:pair\:for\:better\:choice\;of\:extrema\:value\:for\:f:\; (w_{n+1},f(w_{n+1}))
 ```
 
