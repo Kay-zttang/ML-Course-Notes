@@ -20,7 +20,13 @@ The cost function here we choose the **binary cross entropy loss function**.
     <img align="center" src="Img/binary_cross_entropy_loss_function.jpg" width="600" />
 </p>
  Since the gradient of the Binary Cross Entropy Loss Function matches the ones in previous single neuron model, we may implement stochastic gradient descent the same way as the model's update rule.
+<p align="center" width="100%">
+    <img align="center" src="Img/gradient_binary_cross.jpg" width="600" />
+</p>
+
+
 ---
+
 ### **Implementation**
 
 #### **Dataset Description**
