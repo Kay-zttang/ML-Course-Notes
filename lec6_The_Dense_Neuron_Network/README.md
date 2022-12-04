@@ -17,6 +17,8 @@
 
      By minimizing the <ins>Cost Function</ins> by adjusting the <ins>Weights and Bias</ins> with some variant of <ins>Gradient Descent</ins>.
 
+Recall lec5, the activation function set to be the **Sigmoid Activation Function** in order to predict the class probability.
+
 <p align="center" width="100%">
     <img align="center" src="Img/the_neuron_network.jpg" width="600" />
 </p>
@@ -50,3 +52,10 @@ b^{\ell} \leftarrow b^{\ell} - \alpha \delta^{\ell}
 ### **Implementation**
 
 #### **Dataset Description**
+In the impletation the **MNIST** dataset being used.
+- **MNIST** : 70,000 images of hand written digits
+    - Each image: $28\times 28$ grey scaled grid of pixel values
+    - Pixel values: floating point numbers in the interval $(0,1)$
+    - Meaning: darker pixels will have values closer to $1$ and lighter pixels will have values closer to $0$
+
+Target: Using different single neuron model to classify admitted or not using numeric parameters "gmat" and "gpa".
