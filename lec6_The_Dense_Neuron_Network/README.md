@@ -6,9 +6,9 @@
 * Problem of latent overfitting
 * Work Flow: (Iterate until arriving at an Output Value)
 
-    Input Signal (feature measure) &mdash;scaled by $\to$ 1st layer weights
+    Input Signal (feature measure) &mdash; scaled by $\to$ 1st layer weights
     
-    -pass into $\to$ an activation function -foward into $\to$ next layer
+    &mdash; pass into $\to$ an activation function &mdash; foward into $\to$ next layer
    
 
 
