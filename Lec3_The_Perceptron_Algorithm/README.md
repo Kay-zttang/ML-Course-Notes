@@ -49,6 +49,7 @@ In the impletation there're two datasets being used: **Iris dataset** and **Palm
     - Three island group: 'Biscoe' / 'Dream' / 'Torgersen'
     - Two gender group: 'Male' / 'Female'
     - numeric parameters: 'bill_length_mm' / 'bill_depth_mm' / 'flipper_length_mm' / 'body_mass_g'
+    
 Target: Using The perceptron model to classify species group using numeric parameters as measurements.
 
 #### **Performance Conclusion**
