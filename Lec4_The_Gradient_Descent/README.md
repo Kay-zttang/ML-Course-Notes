@@ -58,7 +58,9 @@ w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1}
 b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b}
 ```
 - **Stochastic Gradient Descent Algorithm** 
+
 **Common** and **Necessary** to find local minima.
+
 For each epoch, for each $i = 1, ..., N$:
 1.  Caluculate the full gradient by
 ```math
