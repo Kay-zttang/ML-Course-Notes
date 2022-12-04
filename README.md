@@ -12,8 +12,9 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
         All possible choices of weights and bias.
     - Final Hypothesis approximating Target Function:
         The weight and bias which make function approcimates *f*
-- Loss Function: Evaluate Model Hypothesis
+- Loss Function(a.k.a Cost Function): Evaluate Model Hypothesis
 - Underfitting and Overfitting Issues
     - Partition data sets as training / testing data sets
+
 
 ### **Unsupervised Learning**
