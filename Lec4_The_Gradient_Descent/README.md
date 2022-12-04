@@ -57,7 +57,7 @@ w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1}
 ```math
 b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b}
 ```
-- **Stochastic Gradient Descent Algorithm** 
+- <ins>**Stochastic Gradient Descent Algorithm**</ins>
 
 **Common** and **Necessary** to find local minima.
 
