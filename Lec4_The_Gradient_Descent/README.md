@@ -39,7 +39,7 @@ The cost function here we choose the **mean-squared error cost function**.
 </p>
 
 #### **Different Methods for Calculating the Full Partial Derivatives**
-- Batch Gradient Descent Algiorithm
+- **Batch Gradient Descent Algiorithm**
 
 For each epoch:
 1.  Caluculate the full gradient by
@@ -57,7 +57,24 @@ w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1}
 ```math
 b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b}
 ```
-- Stochastic Gradient Descent Algorithm (**Common** and **necessary** to find local minima)
+- **Stochastic Gradient Descent Algorithm** 
+**Common** and **Necessary** to find local minima.
+For each epoch, for each $i = 1, ..., N$:
+1.  Caluculate the full gradient by
+```math
+\frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial w_1} = (\hat{y}^{(i)} - y^{(i)})x^{(i)}
+``` 
+```math
+\frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b} = (\hat{y}^{(i)} - y^{(i)})
+``` 
+2.  Then update $w$ and $b$ via the update rule
+
+```math
+w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial w_1}
+```
+```math
+b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b}
+```
 ---
 
 ### **Implementation**
