@@ -79,7 +79,7 @@ b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\pa
 
 ### **Implementation**
 
-#### **Dataset Description**
+#### **- Dataset Description**
 In the impletation the dataset **Palmer Penguins Dataset** being used.
 
 Since the gradient descent here focus on linear regression, we are implement the method under these 4 numeric parameters:
@@ -90,4 +90,4 @@ Since the gradient descent here focus on linear regression, we are implement the
 Target: Using The Gradient Descent to perform regression on relationships between numeric parameters of a specific species.
 
 
-#### **Performance Conclusion**
+#### **- Performance Conclusion**
