@@ -42,14 +42,14 @@ The cost function here we choose the **mean-squared error cost function**.
 - Batch Gradient Descent Algiorithm
 
 For each epoch:
-    1.  Caluculate the full gradient by
+1.  Caluculate the full gradient by
 ```math
 \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)x^{(i)}
 ``` 
 ```math
 \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)
 ``` 
-    2.  Then update $w$ and $b$ via the update rule
+2.  Then update $w$ and $b$ via the update rule
 
 ```math
 w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1}
