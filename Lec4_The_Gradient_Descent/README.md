@@ -43,12 +43,18 @@ The cost function here we choose the **mean-squared error cost function**.
     For each epoch:
     1.  Caluculate the full gradient by
     ```math
-    w_1 \leftarrow w_1 - \alpha \frac{\partial C}{\partial w_1}
+    \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)x^{(i)}
     ``` 
     ```math
-    b \leftarrow b - \alpha \frac{\partial C}{\partial b}
+    \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)
     ``` 
-    2.  
+    2.  Then update $w$ and $b$ via the update rule
+    ```math
+    w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial w_1}
+    ```
+    ```math
+    b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{X}, y)}{\partial b}
+    ```
 - Stochastic Gradient Descent Algorithm (**Common** and **necessary** to find local minima)
 ---
 
