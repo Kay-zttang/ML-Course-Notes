@@ -3,8 +3,8 @@ import numpy as np
 
 __all__ = ["train_test_split"]
 
-def train_test_split(X, y, percent = .15):
-    split_index = np.int(np.round(X.shape[0])*percent)
+def train_test_split(X, y, percent=.15):
+    split_index = np.int64(np.round(X.shape[0])*percent)
     X, y = shuffle(X, y)
     X_train, y_train = X[:split_index], y[:split_index]
     X_test, y_test = X[-split_index:], y[-split_index:]
