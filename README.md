@@ -16,14 +16,19 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
 - Underfitting and Overfitting Issues
     - Partition data sets as training / testing data sets
 
-* <ins>**Single Neuron Model**</ins>
-    * Classification 
-    * Regression 
-    * Logistic 
-* <ins>**Dense Neuron Model**</ins>
-    * Classification
-    * Regression
-    * Dimensionality Reduction: singular value decomposition
-    * Deep Reinforcement Learning
+* <ins>**Parametric Mashine Learning Algorithm**</ins>
+    * <ins>**Single Neuron Model**</ins>
+        * Classification 
+        * Regression 
+        * Logistic 
+    * <ins>**Dense Neuron Model**</ins>
+        * Classification
+        * Regression
+        * Dimensionality Reduction: singular value decomposition
+        * Deep Reinforcement Learning
+* <ins>**Non-Parametric Mashine Learning Algorithm**</ins>
+    * **k-Nearest Neighbors**
+    * **Decision Tree**
+    * **Support Vector Machine**
 
 ### **Unsupervised Learning**
