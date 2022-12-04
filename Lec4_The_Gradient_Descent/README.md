@@ -10,10 +10,7 @@ The Concept of Gradient Descent is that "Gradient" (derivative for single variab
 
 2. Learning Rate $\alpha$
 
-$$
-w_{n+1} = w_n - \alpha f'(w_n)  (\text{Gradient Descent Update Rule for a Function of one Variable})
-$$
-
+Gradient Descent Update Rule for a Function of one Variable
 ```math
 w_{n+1} = w_n - \alpha f'(w_n) 
 ```
