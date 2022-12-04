@@ -5,6 +5,7 @@
 * Computational; highly composite
 * Problem of latent overfitting
 * Work Flow: 
+
     Input Signal (feature measure) -scaled by-> 1st layer weights
     -pass into-> an activation function -foward into-> next layer
     (Iterate until arriving at an Output Value)
