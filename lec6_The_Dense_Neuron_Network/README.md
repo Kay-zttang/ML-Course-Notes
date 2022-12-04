@@ -9,7 +9,8 @@
     Input Signal (feature measure) scaled by $\to$ 1st layer weights
     
     pass into $\to$ an activation function foward into $\to$ next layer
-* Learning by <ins>minimizing the cost function</ins> by <ins>adjusting the Weights and Bias</ins> with some variant of <ins>gradient descent</ins>.
+* Learning by minimizing the <ins>Cost Function</ins> by adjusting the <ins>Weights and Bias</ins> with some variant of <ins>Gradient Descent</ins>.
+
    
 
 
