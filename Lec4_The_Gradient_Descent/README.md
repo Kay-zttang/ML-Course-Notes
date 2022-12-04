@@ -12,7 +12,7 @@ The Concept of Gradient Descent is that "Gradient" (derivative for single variab
 
 Update Rule for $f$ of one Variable
 ```math
-Update Rule for $f$ of one Variable: w_{n+1} = w_n - \alpha f'(w_n) 
+Update\:Rule\:for\:f\:of\:one\:Variable:\; w_{n+1} = w_n - \alpha f'(w_n) 
 ```
 
 Always to find a suitable $\alpha$ through experimentaton.
