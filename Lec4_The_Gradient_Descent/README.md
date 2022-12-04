@@ -26,7 +26,17 @@ w_{n+1} = w_n - \alpha f'(w_n) \;\;\;\;(Update\:Rule\:for\:f\;of\:one\:Variable)
 ```math
 (w_{n+1},\:f(w_{n+1})) \;\;\;\;(New\:pair\:for\:better\:choice\;of\:extrema\:value\:for\:f)
 ```
+#### **Linear Regression Single Neuron Model**
+Recall the lec3, but the target function $f$ is set to be a linear function.
+<p align="center" width="100%">
+    <img align="center" src="Img/the_single_neuron_linear_regression_model.jpg" width="600" />
+</p>
 
+#### **Neuron Cost Function and Model Update Rule**
+The cost function here we choose the **mean-squared error cost function**.
+<p align="center" width="100%">
+    <img align="center" src="Img\mean_squared_error_cost_function.jpg" width="600" />
+</p>
 ---
 
 ### **Implementation**
