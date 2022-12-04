@@ -1,6 +1,9 @@
 ## The Gradient Descent
 - **Field**: Unconstrained continuous optimization
 - **First-order Method**
+<p align="center" width="100%">
+    <img align="center" src="Img/true_gradient_descent.jpg" width="600" />
+</p>
 
 ---
 ### **Concept**
