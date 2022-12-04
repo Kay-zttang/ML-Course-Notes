@@ -27,14 +27,19 @@ w_{n+1} = w_n - \alpha f'(w_n) \;\;\;\;(Update\:Rule\:for\:f\;of\:one\:Variable)
 (w_{n+1},\:f(w_{n+1})) \;\;\;\;(New\:pair\:for\:better\:choice\;of\:extrema\:value\:for\:f)
 ```
 
-Always to find a suitable $\alpha$ through experimentaton.
-
-
-
 ---
 
 ### **Implementation**
 
 #### **Dataset Description**
+In the impletation the dataset **Palmer Penguins Dataset** being used.
+
+Since the gradient descent here focus on linear regression, we are implement the method under these 4 numeric parameters:
+- 'bill_length_mm' 
+- 'bill_depth_mm' 
+- 'flipper_length_mm' 
+- 'body_mass_g'
+Target: Using The Gradient Descent to perform regression on relationships between numeric parameters of a specific species.
+
 
 #### **Performance Conclusion**
