@@ -1,5 +1,7 @@
 ## The Dense Neuron Model
 
+---
+### **Concept**
 #### **- The Neuron Networks**
 * **Structure**:
 
@@ -15,12 +17,9 @@
 
      By minimizing the <ins>Cost Function</ins> by adjusting the <ins>Weights and Bias</ins> with some variant of <ins>Gradient Descent</ins>.
 
-   
-
-
----
-### **Concept**
-
+<p align="center" width="100%">
+    <img align="center" src="Img/the_neuron_network.jpg" width="600" />
+</p>
 
 
 ---
