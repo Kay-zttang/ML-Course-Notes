@@ -21,6 +21,22 @@
     <img align="center" src="Img/the_neuron_network.jpg" width="600" />
 </p>
 
+#### **- Neuron Cost Function and Model Update Rule**
+Implement stochastic gradient descent as well in each phase.
+
+For each $i = 1, ..., N$:
+1. Feedfoward $\mathbf{x}^{(i)}$ into the network 
+2. Compute $\delta^{L} = \nabla_aC\otimes \sigma'(\mathbf{z}^{L})$
+3. For $\ell = L, L-1, \dots, 1$:
+    1. Compute $\delta^{\ell} = \big ( (\mathbf{w}^{\ell + 1})^{T} \delta^{\ell + 1} \Big )\otimes \sigma'(\mathbf{z}^{\ell})$
+    2. Update $w$ and $b$ via the update rule:
+```math
+w^{\ell} \leftarrow w^{\ell} - \alpha \delta^{\ell}(\mathbf{a}^{\ell-1})^{T}
+```
+```math
+b^{\ell} \leftarrow b^{\ell} - \alpha \delta^{\ell}
+```
+
 
 ---
 
