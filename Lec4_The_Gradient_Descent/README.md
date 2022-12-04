@@ -7,9 +7,11 @@
 The Concept of Gradient Descent is that "Gradient" (derivative for single variable function) provides a direction to "Descent" (optimize the function). So there're two important features to consider:
 
 1. **Descent direction**
-
 2. **Learning Rate $\alpha$**
 
+```math
+\min_{w\in \mathbb{R}} f(w) \;\;\;\;(Problem\:to\:Solve)
+```
 ```math
 w_{n+1} = w_n - \alpha f'(w_n) \;\;\;\;(Update\:Rule\:for\:f\;of\:one\:Variable)
 ```
