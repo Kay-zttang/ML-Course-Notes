@@ -16,5 +16,7 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
 - Underfitting and Overfitting Issues
     - Partition data sets as training / testing data sets
 
+* Classification 
+* Regression
 
 ### **Unsupervised Learning**

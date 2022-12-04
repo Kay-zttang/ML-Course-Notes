@@ -2,7 +2,7 @@
 - **Field**: Unconstrained continuous optimization
 - **First-order Method**
 <p align="center" width="100%">
-    <img align="center" src="Img/true_gradient_descent.png" width="300" />
+    <img align="center" src="Img/true_gradient_descent.png" width="400" />
 </p>
 
 ---
