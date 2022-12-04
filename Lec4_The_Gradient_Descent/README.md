@@ -27,7 +27,7 @@ w_{n+1} = w_n - \alpha f'(w_n) \;\;\;\;(Update\:Rule\:for\:f\;of\:one\:Variable)
 (w_{n+1},\:f(w_{n+1})) \;\;\;\;(New\:pair\:for\:better\:choice\;of\:extrema\:value\:for\:f)
 ```
 #### **Linear Regression Single Neuron Model**
-Recall the lec3, but the target function $f$ is set to be a linear function.
+Recall the lec3, but the target function $f$ is set to be a linear function. Also the activation function is set to be the linear one.
 <p align="center" width="100%">
     <img align="center" src="Img/the_single_neuron_linear_regression_model.jpg" width="600" />
 </p>
@@ -37,6 +37,19 @@ The cost function here we choose the **mean-squared error cost function**.
 <p align="center" width="100%">
     <img align="center" src="Img\mean_squared_error_cost_function.jpg" width="600" />
 </p>
+
+#### **Different Methods for Calculating the Full Partial Derivatives**
+- Batch Gradient Descent Algiorithm
+    For each epoch:
+    1.  Caluculate the full gradient by
+    ```math
+    w_1 \leftarrow w_1 - \alpha \frac{\partial C}{\partial w_1}
+    ``` 
+    ```math
+    b \leftarrow b - \alpha \frac{\partial C}{\partial b}
+    ``` 
+    2.  
+- Stochastic Gradient Descent Algorithm (**Common** and **necessary** to find local minima)
 ---
 
 ### **Implementation**
