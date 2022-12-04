@@ -7,7 +7,7 @@ A custom framwork and same stochastic gradient descent rule for the models liste
 ### **Concept**
 
 #### **- Logistic Regression Single Neuron Model**
-Recall lec3.4, but the activation function set to be the **Sigmoid Activation Function** in order to predict the class probability.
+Recall lec3 and lec4, but the activation function set to be the **Sigmoid Activation Function** in order to predict the class probability.
 
 <p align="center" width="100%">
     <img align="center" src="Img/the_single_neuron_logistic_regression_model.jpg" width="600" />
@@ -15,6 +15,11 @@ Recall lec3.4, but the activation function set to be the **Sigmoid Activation Fu
 
 #### **- Neuron Cost Function and Model Update Rule**
 The cost function here we choose the **binary cross entropy loss function**.
+
+<p align="center" width="100%">
+    <img align="center" src="Img/binary_cross_entropy_loss_function.jpg" width="600" />
+</p>
+ Since the gradient of the Binary Cross Entropy Loss Function matches the ones in previous single neuron model, we may implement stochastic gradient descent the same way as the model's update rule.
 ---
 ### **Implementation**
 
