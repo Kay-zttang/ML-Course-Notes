@@ -36,6 +36,6 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
 
 Using observable pairs of Measurements *x* but without labels.
 * <ins>**Clustering**</ins>
-    * <ins>**k-Means Clustering**</ins>
+    * **k-Means Clustering**
 * <ins>**Dimensionality Reduction**</ins>
-    * <ins>**Pricipal Component Analysis (PCA)**</ins>
+    * **Pricipal Component Analysis (PCA)**
