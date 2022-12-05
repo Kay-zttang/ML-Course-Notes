@@ -3,7 +3,8 @@
 ---
 ### **Concept**
 #### The Decision Tree (DT) 
-* To predict the target of variable by learning multiple decision rules inferred from data features
+* To predict the target of variable by learning multiple decision rules inferred from data features.
+* Structure: **Nodes** and **Branches**
 ---
 
 ### **Implementation**
