@@ -2,7 +2,7 @@
 
 ---
 ### **Concept**
-#### The Bagging
+#### - The Bagging
 The **B**ootstrap **Agg**regation.
 
 A given set of machine learning model is trained respectively on random samples of training data sets (with replacement). Then to combine the predictions of these models and use as a single prediction.
@@ -11,7 +11,7 @@ A given set of machine learning model is trained respectively on random samples 
 
 Purpose: To reduce the error and variance of models by aggregation.
 
-#### The Random Forest 
+#### - The Random Forest 
 
 ---
 ### **Implementation**
