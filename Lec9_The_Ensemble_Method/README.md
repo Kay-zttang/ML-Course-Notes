@@ -14,8 +14,10 @@ Purpose: To reduce the error and variance of models by aggregation.
 #### - The Random Forest 
 Difference between  ``DecisionTreeClassifier`` class and ``RandomForestClassifier`` class:
 * **DecisionTreeClassifier**
+
     Search for the <ins>best feature</ins> when splitting a node.
 * **RandomForestClassifier**
+
     Search for the <ins>best feature among a random subset of feature</ins>. Introduce extra randomness and result in a greater diversity of trees.
 
 ---
