@@ -29,6 +29,13 @@ Using observable pairs of Measurements *x* and Labels *y* as (x,y) to build a pr
 * <ins>**Non-Parametric Mashine Learning Algorithm**</ins>
     * **k-Nearest Neighbors**
     * **Decision Tree**
-    * **Support Vector Machine**
+    * **The Ensamble Method**
+        - Random Forest
 
 ### **Unsupervised Learning**
+
+Using observable pairs of Measurements *x* but without labels.
+* <ins>**Clustering**</ins>
+    * <ins>**k-Means Clustering**</ins>
+* <ins>**Dimensionality Reduction**</ins>
+    * <ins>**Pricipal Component Analysis (PCA)**</ins>
