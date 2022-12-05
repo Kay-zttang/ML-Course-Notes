@@ -21,9 +21,9 @@ S = \frac{1}{n-1}AA^T
 3. Find the eigenvalues and the orthonormal eigenvectors of $S$
     The eigenvalues $\sigma_{i}^{2}$ is equivalent to the **Singular Value Decomposition** of the shifted training set matrix $A$
 ```math
-S = \frac{1}{n-1}AA^T
-```
 A = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^{T}
+```
+
 ---
 ### **Implementation**
 
