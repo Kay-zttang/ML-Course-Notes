@@ -13,12 +13,11 @@ Data of $m$ varaibles and $n$ observations
     * Center :$$ x-mean $$
     * Scale :$$ z = \frac{x - \text{mean}}{\text{standard devation}} $$
 2. Compute the Covariance or Correlation Matrix
-```math
-S = \frac{1}{n-1}AA^T
-```
-
     * Centered data: Covariance matrix $S$
     * Scaled data: Correlation matrix $S$
+    ```math
+    S = \frac{1}{n-1}AA^T
+    ```
 3. 
 ---
 ### **Implementation**
