@@ -8,8 +8,8 @@
 <p align="center" width="100%">
     <img align="center" src="Img/decision_tree.jpg" width="600" />
 </p>
----
 
+---
 ### **Implementation**
 
 #### **Dataset Description**
