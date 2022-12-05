@@ -11,8 +11,8 @@ Principal Component Analysis is used in exploratory data analysis and for multid
 
 Data of $m$ varaibles and $n$ observations
 1. Standardize the data 
-    * Center :$ x-mean $
-    * Scale :$ z = \frac{x - \text{mean}}{\text{standard devation}} $
+    * Center : $x-mean$
+    * Scale : $z = \frac{x - \text{mean}}{\text{standard devation}}$
 2. Compute the Covariance or Correlation Matrix
     * Centered data: Covariance matrix $S$
     * Scaled data: Correlation matrix $S$
