@@ -2,16 +2,16 @@
 
 ---
 ### **Concept**
-#### KNN 
-
+#### The Decision Tree (DT) 
+* To predict the target of variable by learning multiple decision rules inferred from data features
 ---
 
 ### **Implementation**
 
 #### **Dataset Description**
-In the impletation the **Fruit** and **Audible** dataset being used.
-- **Fruit** : 7 columns 
-    - Factor parameters: fruit_name / fruit_label / fruit_subtype
-    - Numeric parameters: mass / width / height / color_score
+In the impletation the **Titanic** dataset being used.
+- **Titanic** : 12 columns (Using 7 columns as features)
+    - Predicted label: survived (0 or 1)
+    - Predict features: Pclass / Sex / Age / SibSp / Parch / Fare
 
 Target: Using numeric parameters to predict fruit name.
