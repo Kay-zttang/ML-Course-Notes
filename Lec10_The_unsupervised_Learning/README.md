@@ -19,11 +19,27 @@ Data of $m$ varaibles and $n$ observations
 S = \frac{1}{n-1}AA^T
 ```
 3. Find the eigenvalues and the orthonormal eigenvectors of $S$
+
     The eigenvalues $\sigma_{i}^{2}$ is equivalent to the **Singular Value Decomposition** of the shifted training set matrix $A$
 ```math
 A = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^{T}
 ```
+4. Find the  principal components and Reduce the dimension of the data 
 
+    To arrange the eigenvalues in <ins>decreasing</ins> order.
+    * The first principal component $PC_1$: the direction of the 1st eigenvector, the second principal component $PC_2$: the direction of the 2nd eigenvector, etc.
+    * *loading scores*: The entries of each $PC_i$
+
+    To project data points onto the selected principal components. 
+    * To project the data contained in $A$ onto the first two principle component axis, compute $A [PC_1 PC_2]$.
+
+The Total Varaince
+```math
+T = \text{trace}(S) = \frac{\sigma_{1}^{2} + \dots + \sigma_{m}^{2}}{n-1}
+```
+```math
+\frac{\sigma_{i}^{2}/(n-1)}{T} = \frac{\sigma_{i}^{2}}{\sigma_{1}^{2} + \dots + \sigma_{m}^{2}}
+```
 ---
 ### **Implementation**
 
