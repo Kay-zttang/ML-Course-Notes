@@ -13,5 +13,6 @@ In the impletation the **Titanic** dataset being used.
 - **Titanic** : 12 columns (Using 7 columns as features)
     - Predicted label: survived (0 or 1)
     - Predict features: Pclass / Sex / Age / SibSp / Parch / Fare
+    - Pre-processing the data for data type, NaN value and etc.
 
-Target: Using numeric parameters to predict fruit name.
+Target: Using predict features to predict survived or dead.
