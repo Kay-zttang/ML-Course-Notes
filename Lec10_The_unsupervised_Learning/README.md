@@ -50,4 +50,4 @@ In the impletation the **Fruit** dataset being used.
     - Factor parameters: fruit_name / fruit_label / fruit_subtype
     - Numeric parameters: mass / width / height / color_score
 
-Target: implement k-means clustering and PCA on fruit group. 
+Target: Implement k-means clustering and PCA on fruit group. 
