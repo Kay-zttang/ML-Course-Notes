@@ -19,6 +19,8 @@ d(p, q) = \sqrt{(p - q)^{T} (p - q)}
     * regression: return the **mean** of the K labels
     * classification: return the **mode** of the K labels
 
+---
+
 ### **Implementation**
 
 #### **Dataset Description**
