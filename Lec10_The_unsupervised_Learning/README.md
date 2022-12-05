@@ -15,9 +15,9 @@ Data of $m$ varaibles and $n$ observations
 2. Compute the Covariance or Correlation Matrix
     * Centered data: Covariance matrix $S$
     * Scaled data: Correlation matrix $S$
-    ```math
-    S = \frac{1}{n-1}AA^T
-    ```
+```math
+S = \frac{1}{n-1}AA^T
+```
 3. 
 ---
 ### **Implementation**
