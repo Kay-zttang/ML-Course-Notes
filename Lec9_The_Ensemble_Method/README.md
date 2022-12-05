@@ -9,15 +9,10 @@ A given set of machine learning model is trained respectively on random samples 
 - Regression: <ins>Average</ins> of predictions
 - Classification: <ins>Majority</ins> Vote of predictions
 
-Purpose: To reduce the error of variance of models by aggregation.
-
-
-* Structure: **Nodes** and **Branches**
-<p align="center" width="100%">
-    <img align="center" src="Img/decision_tree.jpg" width="600" />
-</p>
+Purpose: To reduce the error and variance of models by aggregation.
 
 #### The Random Forest 
+
 ---
 ### **Implementation**
 
