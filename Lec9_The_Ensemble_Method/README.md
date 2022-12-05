@@ -17,10 +17,9 @@ Purpose: To reduce the error and variance of models by aggregation.
 ### **Implementation**
 
 #### **Dataset Description**
-In the impletation the **Titanic** dataset being used.
-- **Titanic** : 12 columns (Using 7 columns as features)
-    - Predicted label: survived (0 or 1)
-    - Predict features: Pclass / Sex / Age / SibSp / Parch / Fare
-    - Pre-processing the data for data type, NaN value and etc.
+In the impletation the **Fruit** dataset being used.
+- **Fruit** : 7 columns 
+    - Factor parameters: fruit_name / fruit_label / fruit_subtype
+    - Numeric parameters: mass / width / height / color_score
 
-Target: Using predict features to predict survived or dead.
+Target: Using bragging to classify fruit apple and orange. 
