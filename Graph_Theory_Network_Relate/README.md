@@ -19,11 +19,11 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 
 ### **Introducing Grapg Networks** 
 
-[Idea] Data not suitable to represent in tabular form.
+[**Idea**] Data not suitable to represent in tabular form.
 
-[Def] A graph G is a set of nodes (vertices) V(G), and a set of edges E(G), where each edge in E(G) represent relationship on the nodes of G.
+[**Def**] A graph G is a set of nodes (vertices) V(G), and a set of edges E(G), where each edge in E(G) represent relationship on the nodes of G.
 
-[Type]
+[**Type**]
 - **Simple Graph**
 
     E(G) consists of non-ordered pairs of nodes (nodes no rep.)
@@ -34,8 +34,9 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
     <img align="center" src="Img/graph_type.jpg" width="750" />
 </p>
 
-[Property]
+[**Subtype**]
 * Paths
 * Cycles
+* Stars
 * Complete
 * Complete Bipartite
