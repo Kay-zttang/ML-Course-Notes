@@ -7,9 +7,7 @@ Can you walk across each bridge once and only once? (able to start anywhere)
     <img align="center" src="Img/bridge_q.jpg" width="750" />
 </p>
 
-**<ins>Note</ins>**  
-
-The question is not a geometric one, instead it's a relational question, which means the distance of the node or the angle of nodes doesn't count in this question.
+The question is not a `geometric` one, instead it's a `relational` question, which means the distance of the node or the angle of nodes doesn't count in this question.
 
 **<ins>Sol.</ins>**  
 
