@@ -46,5 +46,5 @@ Using observable pairs of Measurements *x* but without labels.
 
 <ins>Bridge Question</ins>: Can you walk across each bridge once and only once?
 
-<ins>Note</ins>: The question is not a $\color[red]{geometric}$ one  
+<ins>Note</ins>: The question is not a $\mathscr{\color{red}{geometric}}$ one  
 
