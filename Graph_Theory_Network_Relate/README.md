@@ -22,9 +22,20 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 [Idea] Data not suitable to represent in tabular form.
 
 [Def] A graph G is a set of nodes (vertices) V(G), and a set of edges E(G), where each edge in E(G) represent relationship on the nodes of G.
+
+[Type]
 - **Simple Graph**
 
     E(G) consists of non-ordered pairs of nodes (nodes no rep.)
 - **Directed Graph**
 
     E(G) consists pf ordered pairs of nodes (nodes no rep.)
+<p align="center" width="100%">
+    <img align="center" src="Img/graph_type.jpg" width="750" />
+</p>
+
+[Property]
+* Paths
+* Cycles
+* Complete
+* Complete Bipartite
