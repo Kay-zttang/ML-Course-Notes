@@ -40,3 +40,6 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 * Stars
 * Complete
 * Complete Bipartite
+<p align="center" width="100%">
+    <img align="center" src="Img/graph_subtype.jpg" width="450" />
+</p>
