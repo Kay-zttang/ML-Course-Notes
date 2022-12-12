@@ -23,6 +23,8 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 
 [Def] A graph G is a set of nodes (vertices) V(G), and a set of edges E(G), where each edge in E(G) represent relationship on the nodes of G.
 - **Simple Graph**
+
     E(G) consists of non-ordered pairs of nodes (nodes no rep.)
 - **Directed Graph**
+
     E(G) consists pf ordered pairs of nodes (nodes no rep.)
