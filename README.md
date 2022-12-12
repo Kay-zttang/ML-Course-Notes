@@ -39,3 +39,12 @@ Using observable pairs of Measurements *x* but without labels.
     * **k-Means Clustering**
 * <ins>**Dimensionality Reduction**</ins>
     * **Pricipal Component Analysis (PCA)**
+
+### **Extends**
+#### **Python Basics**
+#### **Graph theory, Networks, and Data**
+
+<ins>Bridge Question</ins>: Can you walk across each bridge once and only once?
+
+<ins>Note</ins>: The question is not a $\colorbox{red}{geometric}$ one  
+
