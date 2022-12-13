@@ -17,7 +17,7 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 
 ---
 
-### **- Introducing Grapg Networks** 
+### **- Introducing Graph Networks** 
 
 [**Idea**] Data not suitable to represent in tabular form.
 
@@ -41,3 +41,13 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 <p align="center" width="100%">
     <img align="center" src="Img/graph_subtype.jpg" width="450" />
 </p>
+
+[**Property**]
+
+Let G be a graph.
+
+$N_G(V)={w: {v,w}\in E(G)}$
+
+$N_G[V]=N_G(V)\cap {V}$
+
+$d_G(V)=|N_G(V)|$
