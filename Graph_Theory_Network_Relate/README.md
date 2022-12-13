@@ -46,8 +46,8 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 
 Let G be a graph.
 
-$N_G(V)={w: {v,w}\in E(G)}$
+* $N_G(V)=\{w: \{v,w\}\in E(G)\}$
 
-$N_G[V]=N_G(V)\cap {V}$
+* $N_G[V]=N_G(V)\cap \{V\}$
 
-$d_G(V)=|N_G(V)|$
+* $d_G(V)=|N_G(V)|$
