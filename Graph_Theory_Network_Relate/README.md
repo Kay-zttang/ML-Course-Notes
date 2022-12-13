@@ -50,7 +50,11 @@ Let G be a graph.
 
 * Nodes(self-include): $N_G[V]=N_G(V)\cap \lbrace V\rbrace$
 
-* Distance: $d_G(V)=|N_G(V)|$
+* Degree: $d_G(V)=|N_G(V)|$
 <p align="center" width="100%">
     <img align="center" src="Img/property.jpg" width="500" />
 </p>
+
+* Regular Graph
+
+    The graph that each $d_G(V)$ is equal. Further, a graph can be called K-Regular if every $d_G(V)$ is K.
