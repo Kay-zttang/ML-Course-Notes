@@ -51,3 +51,6 @@ Let G be a graph.
 * Nodes(self-include): $N_G[V]=N_G(V)\cap \lbrace V\rbrace$
 
 * Distance: $d_G(V)=|N_G(V)|$
+<p align="center" width="100%">
+    <img align="center" src="Img/property.jpg" width="500" />
+</p>
