@@ -46,8 +46,8 @@ Since each node here has odd edges. If a node has odd edges, then it's impossibl
 
 Let G be a graph.
 
-* $N_G(V)=\lbrace w: \lbrace v,w\rbrace \in E(G) \rbrace$
+* Nodes: $N_G(V)=\lbrace w: \lbrace v,w\rbrace \in E(G) \rbrace$
 
-* $N_G[V]=N_G(V)\cap \lbrace V\rbrace$
+* Nodes(self-include): $N_G[V]=N_G(V)\cap \lbrace V\rbrace$
 
-* $d_G(V)=|N_G(V)|$
+* Distance: $d_G(V)=|N_G(V)|$
