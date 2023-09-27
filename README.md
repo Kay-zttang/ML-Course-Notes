@@ -1,4 +1,4 @@
-# INDE577_Data Science and Machine Learning
+# Data Science and Machine Learning
 
 The repository contains materials of implementations of the algorithms covered in course INDE577 along with relating data sets and descrptive README.md files.
 
